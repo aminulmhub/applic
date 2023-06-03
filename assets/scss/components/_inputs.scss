@@ -1,0 +1,26 @@
+// Buttons
+.btn_primary {
+    padding: 16px 18px;
+    border-radius: 6px;
+    background: $color_gradient_primary;
+    color: $color_white;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: $transition;
+    border: none;
+
+    i {
+        font-size: 16px;
+        color: $color_white;
+    }
+
+    &:hover,
+    &:active {
+        background: $color_gradient_primary-2 !important;
+    }
+}
+
+.btn_submit {
+    width: 100%;
+}
