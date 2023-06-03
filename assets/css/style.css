@@ -375,9 +375,6 @@ body .section-title .title {
   left: 0;
   padding: 20px;
 }
-.template-header .template-navigation.mobile-breakpoint-on .template-menu .nav-menu.menu-on ul li {
-  margin: 30px 0 !important;
-}
 .template-header .template-navigation.mobile-breakpoint-on .template-menu .nav-menu .main-menu ul li {
   display: block;
   margin: 0;
@@ -483,13 +480,15 @@ body .section-title .title {
   .template-header .template-navigation {
     padding: 0 30px;
   }
-  .template-header .template-navigation .main-menu ul li {
-    margin: 10px 5px !important;
-  }
   .template-header .template-navigation .btn_cta {
     padding: 17px 19px !important;
     font-size: 13px !important;
     line-height: 21px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .template-header .template-navigation .main-menu ul li a {
+    padding: 15px 15px 15px 0 !important;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -627,7 +626,7 @@ body .section-title .title {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .hero .content .inner .title {
-    font-size: 50px;
+    font-size: 46px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -635,7 +634,7 @@ body .section-title .title {
     text-align: center;
   }
   .hero .content .inner .title {
-    font-size: 50px;
+    font-size: 46px;
     text-align: center;
   }
 }
